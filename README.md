@@ -1,5 +1,6 @@
 # Programacion-Web-I #
-Desarrollo durante el curso de Programación Web I
+    
+    Desarrollo durante el curso de Programación Web I
 
 ## Plantilla Default Html ##
 
@@ -14,3 +15,7 @@ Desarrollo durante el curso de Programación Web I
     Ruta de "hosts":  C:\Windows\System32\drivers\etc
 
     Esto sirve para cambiar las direcciones IPs de los dominios.
+
+## Debug ##
+
+    - [Debug](https://es.javascript.info/debugging-chrome)
