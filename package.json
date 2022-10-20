@@ -2,6 +2,25 @@
   "dependencies": {
     "express": "^4.18.2",
     "jade": "^1.11.0",
+    "modulecolors": "file:Node/Express/moduleColors",
     "socket.io": "^4.5.2"
-  }
+  },
+  "name": "programacion-web-i",
+  "description": "Desarrollo durante el curso de Programación Web I",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoGomezGutierrez/Programacion-Web-I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoGomezGutierrez/Programacion-Web-I/issues"
+  },
+  "homepage": "https://github.com/MarcoGomezGutierrez/Programacion-Web-I#readme"
 }
