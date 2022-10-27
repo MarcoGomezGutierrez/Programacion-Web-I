@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="/url_de_envio">
+        <label for="name">Nombre</label>
+        <input id="name" type="text" placeholder="Introduce un nombre" minlength="6" maxlength="12" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Introduce un email" required>
+        <br><br>
+        <label for="pass">Password</label>
+        <input id="pass" type="password" placeholder="Introduce una constraseña" required>
+        <br><br>
+        <input type="color">
+        <input type="time">
+        <br><br>
+        <input type="reset" value="Borrar">
+        <input type="submit" value="Enviar el nombre"> 
+        <h2>Seleccionar de un combo</h2>
+        <select>
+            <option value="selected" selected>Valor por defecto</option>
+            <option value="Valor 1">Valor 1</option>
+            <option value="Valor 2">Valor 2</option>
+            <option value="Valor 3">Valor 3</option>
+        </select>
+        <br><br>
+        <h2>Botones de radio</h2>
+        <label>
+            <input type="radio" value="op1">Opción 1
+        </label>
+        <label>
+            <input type="radio" value="op2">Opción 2
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox"> Aceptar condiciones
+        </label>
+        <br><br>
+        <textarea rows="10" cols="30"></textarea>
+        <br><br>
+        <input type="reset" value="Borrar">
+        <input type="submit" value="Enviar el nombre"> 
+    </form>
+</body>
+</html>

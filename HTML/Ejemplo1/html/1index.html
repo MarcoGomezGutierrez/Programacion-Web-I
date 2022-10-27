@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <div>
+        <img src="leon.jpg"
+          alt="Este es el alt de la imagen."
+          title="Este es el title de la imagen" />
+    </div>
+    <div id="compartir">
+        <a href="https://twitter.com/share/?url=https://marca.com/"
+           data-compartir="Compartir con twitter">Twitter</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://marca.com/"
+           data-compartir="Compartir con FB">Facebook</a>
+    </div>
+
+<p>Esto es un ejemplo de texto de izquierda a derecha.</p>
+<p dir="rtl">Esto es un ejemplo de texto de derecha a izquierda.</p>
+
+<script>  
+    var links = document.querySelectorAll("#compartir a");
+
+    console.log(links[0].dataset.compartir); // 43
+    console.log(links[1].dataset.compartir); // 66
+      
+</script>
+
+</body>
+</html>
