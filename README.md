@@ -19,3 +19,15 @@
 ## Debug ##
 
     - [Debug](https://es.javascript.info/debugging-chrome)
+
+## Docker ##
+
+    Buscar imagen: docker search ubuntu
+    Instalar imagen: docker pull ubuntu
+    Buscar imagenes: docker images
+    Crear contenedor: docker run -it ubuntu (El -it es para abrir el contenedor)
+    Salir del la linea de comandos: exit
+    Mirar contenedores: docker ps -a
+    Correr un contenedor: docker start 59f52dc30789
+    Ejecutar el contenedor y abrir consola: docker exec -it 59f52dc30789 bash
+    Parar contenedor: docker stop 59f52dc30789
