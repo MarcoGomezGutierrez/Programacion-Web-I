@@ -31,3 +31,18 @@
     Correr un contenedor: docker start 59f52dc30789
     Ejecutar el contenedor y abrir consola: docker exec -it 59f52dc30789 bash
     Parar contenedor: docker stop 59f52dc30789
+
+## Redis ##
+
+    - Base de datos que funciona en memoria
+
+    - Para instalarlo npm install redis
+
+    $ sudo apt-get update
+    $ sudo apt install redis
+    $ redis-cli --version
+    $ sudo service --status-all
+    $ sudo service redis-server start
+    $ redis-cli
+
+    - Para ver claves: $ KEYS *
