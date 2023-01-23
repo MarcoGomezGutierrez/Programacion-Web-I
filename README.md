@@ -46,3 +46,23 @@
     $ redis-cli
 
     - Para ver claves: $ KEYS *
+
+## Clave publica privada ##
+
+    Clave Privada de Prueba: 1234
+
+    $ openssl genrsa -aes256 -out my_cert.pem 2048
+
+    $ openssl req -new -key my_cert.pem -out my_cert.csr
+
+    $ openssl x509 -req -days 365 -in my_cert.csr -signkey my_cert.pem -out my_cert.crt
+
+    $ openssl rsa -in my_cert.pem -out my_cert.key
+
+    $ npm install fs --save
+
+    $ npm install https --save
+
+## Facts-Bot ##
+
+    $ https://www.digitalocean.com/community/tutorials/how-to-build-a-telegram-quotes-generator-bot-with-node-js-telegraf-jimp-and-pexels
